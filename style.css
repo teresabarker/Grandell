@@ -1,0 +1,53 @@
+/* Fonts */
+@font-face {
+    font-family: "Midnight Signature";
+    src: url("/resources/fonts/Midnight\ Signature.otf"); 
+}
+
+/* HTML Elements */
+h1 {
+    text-align: center;
+    font-family: "Midnight Signature";
+    text-transform: lowercase;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Midnight Signature";
+    text-transform: lowercase;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+a {
+    color: hotpink;
+}
+
+a:hover {
+    color: steelblue;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/* Classes */
+.under-construction-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+}
+
+/* IDs */
+#about-image {
+    display: block;
+    margin-left: auto;  /* why auto? because it takes up the available horizontal space in the block equally, */
+    margin-right: auto; /* therefore the element gets centered */
+    max-width: 700px;
+}
