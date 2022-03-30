@@ -51,3 +51,11 @@ p {
     margin-right: auto; /* therefore the element gets centered */
     max-width: 700px;
 }
+
+#signature {
+    font-family: "Midnight Signature";
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: lowercase;
+    text-align: center;
+}
