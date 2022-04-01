@@ -1,3 +1,7 @@
+/*
+Theme Name: Grandell
+Author: Teresa Barker
+*/
 /* Fonts */
 @font-face {
     font-family: "Midnight Signature";
@@ -27,6 +31,7 @@ a {
 
 a:hover {
     color: steelblue;
+    cursor: pointer;
 }
 
 p {
