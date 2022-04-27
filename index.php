@@ -1,1 +1,0 @@
-// Basic file that WordPress needs to load the theme
