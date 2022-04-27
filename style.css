@@ -2,6 +2,14 @@
 Theme Name: Grandell
 Author: Teresa Barker
 */
+/* Scren Sizing */
+* {
+    box-sizing: border-box;
+  }
+body {
+    width: 100%;
+    float: center;
+}
 /* Fonts */
 @font-face {
     font-family: "Midnight Signature";
@@ -13,7 +21,8 @@ h1 {
     text-align: center;
     font-family: "Midnight Signature";
     text-transform: lowercase;
-    font-size: 60px;
+    width: 100%;
+    height: auto;
     font-weight: 100;
 }
 
@@ -46,7 +55,9 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
     max-width: 700px;
+    height: auto;
 }
 
 /* IDs */
