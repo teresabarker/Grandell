@@ -30,12 +30,12 @@ header {
     max-width: 100%;
     height: 100%;
     margin: 0 auto;
+    padding: 20px 60px;
 }
 
 header h1 {
     margin: 0;
-    display:inline;
-    padding: 10px 50px;
+    display: inline;
     text-align: left;
     font-size: 50px;
 }
@@ -46,14 +46,13 @@ header h1 a {
 }
 
 header h1 a:hover {
-    color: rgb(44, 44, 44);
+    color: white;
     text-decoration: none;
 }
 
 nav {
-    float:right;
-    display:inline;
-    padding: 0px 50px;
+    float: right;
+    display: inline;
 }
 
 nav li {
@@ -71,6 +70,17 @@ nav a:hover {
     color: rgb(44, 44, 44);
 }
 
+footer {
+    position: fixed;
+    float: bottom;
+    bottom: 1%;
+}
+
+footer a img {
+    height: 30px;
+    display: inline;
+}
+
 h1 {
     text-align: center;
     font-family: "Midnight Signature";
@@ -78,6 +88,7 @@ h1 {
     width: 100%;
     height: 100px;
     font-weight: 100;
+    font-size: 100px
 }
 
 h2 {
