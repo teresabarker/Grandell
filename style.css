@@ -5,18 +5,16 @@ Author: Teresa Barker
 /* Scren Sizing */
 * {
     box-sizing: border-box;
-  }
-  
+}
+
 body {
-    color: #444;
+    margin: 0;
+    padding: 0;
+    color: white;
     width: 100%;
     float: center;
-    background-color: white;
+    background-color: #444;
     font-family: "Montserrat", sans-serif;
-    background-image: url("resources/images/home-main-background-collage.png");
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 /* Fonts */
@@ -27,19 +25,21 @@ body {
 
 /* HTML Elements */
 header {
-    position: relative;
+    position: sticky;
     display: block;
     max-width: 100%;
-    height: 100%;
-    margin: 0 auto;
+    height: 60vw;
+    background-image: url("resources/images/home-main-background-collage.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    padding: 1vw 3vw;
 }
 
 header h1 {
-    margin: 0;
     display: inline;
     text-align: left;
     font-size: 4vw;
-    padding: 1vw 3vw;
 }
 
 header h1 a {
@@ -48,7 +48,7 @@ header h1 a {
 }
 
 header h1 a:hover {
-    color: #444;
+    color: #ff6890;
     text-decoration: none;
 }
 
@@ -71,24 +71,26 @@ nav a {
 }
 
 nav a:hover {
-    color: #444;
+    color: #ff6890;
 }
 
 nav li a img {
-    max-height: 1.5vw;
+    max-height: 1.2vw;
 }
 
 footer {
-    position: fixed;
-    float: bottom;
-    bottom: 1%;
+    display: flex;  /* decided to go with flexbox over grid because my site design is basically vertical blocks of code */
+    justify-content: space-around;
 }
 
-footer a img {
-    height: 30px;
-    display: inline;
+footer p {
+    font-size: .9vw;
 }
 
+footer a {
+    text-decoration: none;
+    color: white;
+}
 h1 {
     text-align: center;
     font-family: "Midnight Signature";
@@ -112,7 +114,7 @@ a {
 }
 
 a:hover {
-    color: violet;
+    color: #ff6890;
     cursor: pointer;
 }
 
