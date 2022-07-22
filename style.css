@@ -6,17 +6,19 @@ Author: Teresa Barker
 * {
     box-sizing: border-box;
   }
+  
 body {
-    color: rgb(44, 44, 44);
+    color: #444;
     width: 100%;
     float: center;
     background-color: white;
     font-family: "Montserrat", sans-serif;
-    background-image: url("resources/images/car-sunroof.jpeg");
+    background-image: url("resources/images/home-main-background-collage.png");
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* Fonts */
 @font-face {
     font-family: "Midnight Signature";
@@ -30,14 +32,14 @@ header {
     max-width: 100%;
     height: 100%;
     margin: 0 auto;
-    padding: 20px 60px;
 }
 
 header h1 {
     margin: 0;
     display: inline;
     text-align: left;
-    font-size: 50px;
+    font-size: 4vw;
+    padding: 1vw 3vw;
 }
 
 header h1 a {
@@ -46,19 +48,21 @@ header h1 a {
 }
 
 header h1 a:hover {
-    color: white;
+    color: #444;
     text-decoration: none;
 }
 
 nav {
     float: right;
     display: inline;
+    padding: 1vw 3vw;
 }
 
 nav li {
     text-transform: uppercase;
     display: inline;
     padding-inline: 10px;
+    font-size: 1vw;
 }
 
 nav a {
@@ -67,7 +71,11 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(44, 44, 44);
+    color: #444;
+}
+
+nav li a img {
+    max-height: 1.5vw;
 }
 
 footer {
@@ -88,14 +96,14 @@ h1 {
     width: 100%;
     height: 100px;
     font-weight: 100;
-    font-size: 100px
+    font-size: 4vw;
 }
 
 h2 {
     text-align: center;
     font-family: "Midnight Signature";
     text-transform: lowercase;
-    font-size: 40px;
+    font-size: 3vw;
     font-weight: 100;
 }
 
@@ -110,9 +118,9 @@ a:hover {
 
 p {
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    padding-left: 200px;
-    padding-right: 200px;
+    font-size: 2vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 /* Classes */
@@ -126,16 +134,9 @@ p {
 }
 
 /* IDs */
-#about-image {
-    display: block;
-    margin-left: auto;  /* why auto? because it takes up the available horizontal space in the block equally, */
-    margin-right: auto; /* therefore the element gets centered */
-    max-width: 700px;
-}
-
 #signature {
     font-family: "Midnight Signature";
-    font-size: 30px;
+    font-size: 3vw;
     font-weight: 100;
     text-transform: lowercase;
     text-align: center;
