@@ -143,3 +143,13 @@ p {
     text-transform: lowercase;
     text-align: center;
 }
+
+/* Media Quieries */
+
+/* If the screen size is less that 600px, the main navigation disappears */
+@media only screen and (max-width: 600px) {
+    header nav {
+        display: none;  /* Desktop view of nav disappears */
+    }
+
+}
