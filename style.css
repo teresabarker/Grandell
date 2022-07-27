@@ -81,6 +81,7 @@ nav li a img {
 footer {
     display: flex;  /* decided to go with flexbox over grid because my site design is basically vertical blocks of code */
     justify-content: space-around;
+    text-align: center;
 }
 
 footer p {
