@@ -323,7 +323,6 @@ p {
     padding: 0px 50px;
     word-wrap: break-word;
     max-width: 1000px;
-    
 }
 
 .about-section img {
@@ -332,6 +331,30 @@ p {
 
 .about-section header {
     background-color: #444;
+}
+
+/* Contact page styling */
+.contact-section {
+    padding-top: 100px;
+    height: 800px
+}
+
+.contact-section p {
+    text-align: center;
+}
+
+.contact-section a {
+    color: #5A8DBC;
+    text-decoration: none;
+}
+
+.contact-section a:hover {
+    color: #ff6890;
+    text-decoration: none;
+}
+
+.contact-section img {
+    max-height: 25px;
 }
 
 /* Handwriting styling */
