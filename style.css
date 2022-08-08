@@ -2,6 +2,13 @@
 Theme Name: Grandell
 Author: Teresa Barker
 */
+
+/*
+Color Codes
+#444    gray
+#ff6890 pink
+#5A8DBC blue
+*/
 /* Scren Sizing */
 * {
     box-sizing: border-box;
@@ -35,6 +42,7 @@ header h1 {
     display: inline;
     text-align: left;
     font-size: 44px;
+    text-transform: lowercase;
 }
 
 header h1 a {
@@ -70,7 +78,7 @@ nav a:hover {
 }
 
 nav li a img {
-    max-height: 15px;
+    max-height: 18px;
 }
 
 footer {
@@ -92,7 +100,6 @@ footer a {
 h1 {
     text-align: center;
     font-family: "Midnight Signature";
-    text-transform: lowercase;
     width: 100%;
     height: 100px;
     font-weight: 100;
@@ -102,13 +109,12 @@ h1 {
 h2 {
     text-align: center;
     font-family: "Midnight Signature";
-    text-transform: lowercase;
-    font-size: 3vw;
+    font-size: 30px;
     font-weight: 100;
 }
 
 a {
-    color: steelblue;
+    color: 5A8DBC;
 }
 
 a:hover {
@@ -118,7 +124,7 @@ a:hover {
 
 p {
     font-family: "Montserrat", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -236,19 +242,70 @@ p {
 
 /* Collab page styling */
 .collab-page {
-    background-color: green;
+    background-color: #444;
+    color: white;
+}
+
+.collab-page header {
+    background-color: #5A8DBC;
+}
+
+.collab-page nav a:hover, .collab-page h1 a:hover {
     color: #444;
+} 
+
+.lets-collab-section, .brand-work-section {
+    text-align: center;
+    height: 800px;
+    padding-top: 50px
+}
+
+.lets-collab-section {
+    background-color: #444;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.lets-collab-section p, .brand-work-section p {
+    font-size: 20px;
+    padding: 20px 50px;
+}
+
+.lets-collab-section a {
+    color: #5A8DBC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lets-collab-section a:hover {
+    color: #ff6890;
+    text-decoration: none;
+}
+
+.lets-collab-section img {
+    max-height: 25px;
+    padding: 0px 5px;
 }
 
 .brand-work-section img {
-    max-width: 500px;
+    max-width: 400px;
     align-self: center; /* align-self defaults to 'stretch' so have to set it to 'center' to not alter the logo */
 }
 
 .brand-work-section {
+    color: #444;
+    background-color: white;
+}
+
+.brand-work-section-company-logos {
+    padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around; 
+}
+
+.email {
+    font-size: 24px;
 }
 
 /* Handwriting styling */
