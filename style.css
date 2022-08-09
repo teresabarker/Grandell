@@ -151,7 +151,7 @@ p {
 
 .hamburger .bar, .hamburger:before, .hamburger:after {  /* stytling the pseudo elements :before and :after */
     width: 100%;
-    height: 0.3vw;
+    height: 2px;
     background-color: white;
     margin: 6px 0px;
     transition: 0.4s;
@@ -250,7 +250,7 @@ p {
 }
 
 .collab-page nav a:hover, .collab-page h1 a:hover {
-    color: #444;
+    color: #ff6890;
 } 
 
 .lets-collab-section, .brand-work-section {
@@ -312,6 +312,10 @@ p {
     background-color: #5A8DBC;
 }
 
+.about-page h2 {
+    text-align: left;
+}
+
 .about-section {
     display: flex;
     justify-content: center;
@@ -326,11 +330,19 @@ p {
 }
 
 .about-section img {
-    max-height: 600px;
+    max-height: 500px;
 }
 
 .about-section header {
     background-color: #444;
+}
+
+.about-page a:hover {
+    color: #444;
+}
+
+.about-page .mobile-nav a:hover {
+    color:#ff6890;
 }
 
 /* Contact page styling */
