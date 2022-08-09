@@ -429,6 +429,23 @@ p {
     max-width: 80vw;
 }
 
+.designing-website-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.figma-wireframe {
+    padding: 10px;
+}
+
+.figma-embed {
+    border: 1px solid #444;
+    height: 400px;
+    width: 500px;
+    max-width: 80vw;
+}
+
 /* Handwriting styling */
 .handwriting {
     font-family: "Midnight Signature";
