@@ -226,7 +226,7 @@ p {
     background-image: url("resources/images/home-main-background-collage.png");
     background-repeat: no-repeat;
     background-position: left top;
-    background-size: cover;
+    background-size: contain;
 }
 
 .home-page-main-section {
