@@ -90,7 +90,7 @@ footer {
 }
 
 footer p {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 footer a {
@@ -144,6 +144,7 @@ p {
     height: auto;
 }
 
+ /* Hamburger */
 .hamburger {
     display: block;
     width: 44px;
