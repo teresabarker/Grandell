@@ -186,7 +186,7 @@ p {
     left: -100%; /* makes it so that mobile menu defaults to off screen before sliding in */
     width: 50%;
     height: 100%;
-    background-color: #444;
+    background-color: #333;
     transition: 0.4s;
     opacity: 90%;
     top: 0;     /* no gap between start of mobile nav and top of page */
@@ -477,14 +477,14 @@ p {
 
 /* Media Quieries */
 
-/* If the screen size is less that 600px, the main navigation disappears */
-@media only screen and (max-width: 768px) {
+/* If the screen size is less that Npx, the main navigation disappears */
+@media only screen and (max-width: 1100px) {
     header nav {
         display: none;  /* Desktop view of nav disappears */
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1100px) {
     .hamburger-icon, .mobile-nav { /* Mobile view of nav disappears */
         display: none;
     }
