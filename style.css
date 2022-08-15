@@ -145,40 +145,32 @@ p {
 }
 
  /* Hamburger */
-.hamburger {
-    display: block;
-    width: 44px;
+.hamburger-icon {
+    display: inline;
+    float: right;
+    padding: 20px 20px;
     cursor: pointer;
-    height: 44px;
-    appearance: none;
-    background: none;
-    outline: none;
-    border: none;
 }
 
-.hamburger .bar, .hamburger:before, .hamburger:after {  /* stytling the pseudo elements :before and :after */
-    width: 100%;
+.bar1, .bar2, .bar3 {
+    width: 30px;
     height: 2px;
     background-color: white;
-    margin: 6px 0px;
+    margin: 6px 0;
+    border-radius: 20%;
     transition: 0.4s;
-    /* creates hamburger! */
-    content: '';
-    display: block;
 }
 
-/*.hamburger .bar.is-active, .hamburger.is-active:before, .hamburger.is-active:after {
-    background-color: #ff6890;
-}*/
-
-.hamburger-icon {
-    float: right;
-    display: inline;
-    padding: 1vw 3vw;
+.hamburger-icon.is-active .bar1 {
+    transform: rotate(-45deg) translate(-5px, 0px);
 }
 
-.hamburger-icon.is-active {
-    background-color: #444;
+.hamburger-icon.is-active .bar2 {
+    transform: rotate(45deg) translate(-5px, 0px);
+}
+
+.hamburger-icon.is-active .bar3 {
+    opacity: 0;
 }
 
 .mobile-nav {
