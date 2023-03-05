@@ -90,7 +90,7 @@ footer {
 }
 
 footer p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 footer a {
@@ -131,7 +131,7 @@ a:hover {
 
 p {
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /* Classes */
@@ -319,7 +319,7 @@ p {
 }
 
 .about-section p, .about-section h2 {
-    padding: 0px 50px;
+    padding: 0px 30px;
     word-wrap: break-word;
     max-width: 1000px;
 }
@@ -333,7 +333,8 @@ p {
 }
 
 .about-page a:hover {
-    color: #444;
+    color: white;
+    text-decoration: underline;
 }
 
 .about-page .mobile-nav a:hover {
