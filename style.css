@@ -90,7 +90,7 @@ footer {
 }
 
 footer p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 footer a {
@@ -269,8 +269,7 @@ p {
 }
 
 .about-page a:hover {
-    color: white;
-    text-decoration: underline;
+    color: #444;
 }
 
 .about-page .mobile-nav a:hover {
@@ -386,6 +385,53 @@ p {
     height: 400px;
     width: 500px;
     max-width: 80vw;
+}
+
+/* Collab page styling */
+.collab-page {
+    background-color: #444;
+    color: white;
+}
+
+.collab-page header {
+    background-color: #5A8DBC;
+}
+
+.collab-page .desktop-nav a:hover, .collab-page header h1 a:hover {
+    color: #444;
+}
+
+.lets-collab-section, .brand-work-section {
+    text-align: center;
+    height: 800px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.lets-collab-section {
+    background-color: #444;
+}
+
+.lets-collab-section p, .brand-work-section p {
+    font-size: 18px;
+    padding: 20px 50px;
+}
+
+.lets-collab-section a {
+    color: #5A8DBC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lets-collab-section a:hover {
+    color: #ff6890;
+    text-decoration: none;
+}
+
+.lets-collab-section img {
+    max-height: 25px;
+    padding: 0px 5px;
 }
 
 /* Handwriting styling */
