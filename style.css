@@ -324,13 +324,34 @@ p {
 }
 
 /* Portfolio page */
+.portfolio-page {
+    background-color: #fff;
+}
+
+.portfolio-page header h1 a, .portfolio-page header nav.desktop-nav a, .portfolio-page footer p a {
+    color: #444;
+}
+
+.portfolio-page header h1 a:hover, .portfolio-page header nav.desktop-nav a:hover, .portfolio-page footer p a:hover {
+    color: #999;
+}
+
+.portfolio-page h1, h2, p {
+    color: #444;
+}
+
+.portfolio-page h2 {
+    font-family: "Montserrat", sans-serif;
+}
+
 .portfolio-section {
     padding: 50px 0px;
-    height: fit-content
+    height: fit-content;
 }
 .portfolio-section p {
     text-align: center;
     padding: 10px 30px;
+    color: #444;
 }
 
 .portfolio-section a {
@@ -352,7 +373,6 @@ p {
 }
 
 .figma-embed {
-    border: 1px solid #444;
     height: 400px;
     width: 500px;
     max-width: 80vw;
