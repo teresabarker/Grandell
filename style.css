@@ -324,51 +324,59 @@ p {
 }
 
 /* Portfolio page */
-.portfolio-section, .skills-section, .certifications-section {
-    padding: 50px 0px;
-    height: fit-content
-}
-.portfolio-section p, .skills-section p {
-    text-align: center;
-    padding: 10px 30px;
+.portfolio-page {
+    background-color: #fff;
 }
 
-.portfolio-section a {
-    color: #5A8DBC;
-}
-
-.portfolio-section a:hover {
-    color: #ff6890;
-}
-
-.skills-section {
-    background-color: white;
-}
-
-.skills-section h1, .skills-section p {
+.portfolio-page h1 a, .portfolio-page nav.desktop-nav a, .portfolio-page footer p a {
     color: #444;
 }
 
-.skills-section-icons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.portfolio-page h1 a:hover, .portfolio-page nav.desktop-nav a:hover, .portfolio-page p a:hover {
+    color: #999;
 }
 
-.skills-section-icons img {
-    max-height: 125px;
-    padding: 10px;
+.portfolio-page nav.desktop-nav img:hover {
+    opacity: 70%;
 }
 
-.certifications-section-icons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.portfolio-page .hamburger-icon .bar1, .portfolio-page .hamburger-icon .bar2,.portfolio-page .hamburger-icon .bar3 {
+    background-color: #444;
 }
 
-.certifications-section-icons img {
-    padding: 10px;
-    max-width: 80vw;
+.portfolio-page h1, h2, p {
+    color: #444;
+}
+
+.portfolio-page h2 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.portfolio-section {
+    padding: 50px 0px;
+    height: fit-content;
+}
+.portfolio-section p {
+    text-align: center;
+    padding: 10px 30px;
+    color: #444;
+}
+
+.portfolio-section a {
+    color: #6A95BD;
+    text-decoration: none;
+}
+
+.portfolio-section a:hover {
+    color: #999;
+}
+
+.portfolio-page .mobile-nav a:hover {
+    color: #999;
+}
+
+.portfolio-page .mobile-nav img:hover {
+    opacity: 70%;
 }
 
 .designing-website-section {
@@ -382,7 +390,6 @@ p {
 }
 
 .figma-embed {
-    border: 1px solid #444;
     height: 400px;
     width: 500px;
     max-width: 80vw;
