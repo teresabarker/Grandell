@@ -336,6 +336,10 @@ p {
     color: #999;
 }
 
+.portfolio-page nav.desktop-nav img:hover {
+    opacity: 70%;
+}
+
 .portfolio-page .hamburger-icon .bar1, .portfolio-page .hamburger-icon .bar2,.portfolio-page .hamburger-icon .bar3 {
     background-color: #444;
 }
@@ -359,7 +363,8 @@ p {
 }
 
 .portfolio-section a {
-    color: #5A8DBC;
+    color: #6A95BD;
+    text-decoration: none;
 }
 
 .portfolio-section a:hover {
