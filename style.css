@@ -328,12 +328,16 @@ p {
     background-color: #fff;
 }
 
-.portfolio-page header h1 a, .portfolio-page header nav.desktop-nav a, .portfolio-page footer p a {
+.portfolio-page h1 a, .portfolio-page nav.desktop-nav a, .portfolio-page footer p a {
     color: #444;
 }
 
-.portfolio-page header h1 a:hover, .portfolio-page header nav.desktop-nav a:hover, .portfolio-page footer p a:hover {
+.portfolio-page h1 a:hover, .portfolio-page nav.desktop-nav a:hover, .portfolio-page p a:hover {
     color: #999;
+}
+
+.portfolio-page .hamburger-icon .bar1, .portfolio-page .hamburger-icon .bar2,.portfolio-page .hamburger-icon .bar3 {
+    background-color: #444;
 }
 
 .portfolio-page h1, h2, p {
@@ -359,7 +363,15 @@ p {
 }
 
 .portfolio-section a:hover {
-    color: #ff6890;
+    color: #999;
+}
+
+.portfolio-page .mobile-nav a:hover {
+    color: #999;
+}
+
+.portfolio-page .mobile-nav img:hover {
+    opacity: 70%;
 }
 
 .designing-website-section {
