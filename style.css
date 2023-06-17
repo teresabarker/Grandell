@@ -51,7 +51,6 @@ header h1 a {
 }
 
 header h1 a:hover {
-    color: #ff6890;
     text-decoration: none;
 }
 
@@ -73,8 +72,8 @@ nav a {
     color: white;
 }
 
-nav a:hover {
-    color: #ff6890;
+.desktop-nav a:hover {
+    color: #444;
 }
 
 nav li a img {
@@ -125,7 +124,7 @@ a {
 }
 
 a:hover {
-    color: #ff6890;
+    color: #444;
     cursor: pointer;
 }
 
@@ -198,6 +197,11 @@ p {
 
 .mobile-nav a:hover {
     cursor: pointer;
+    color: #999;
+}
+
+.mobile-nav img:hover {
+    opacity: 70%;
 }
 
 .mobile-nav-social-icons {
@@ -239,9 +243,20 @@ p {
     opacity: 80%;
 }
 
+.home-page a:hover {
+    color: #999;
+}
+
+.home-page img:hover {
+    opacity: 70%;
+} 
+
 /* About page */
 .about-page {
-    background-color: #5A8DBC;
+    background-image: url("resources/images/home-main-background-collage-dark.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
 }
 
 .about-page h2 {
@@ -255,14 +270,24 @@ p {
     height: fit-content;
 }
 
-.about-section p, .about-section h2 {
+.about-section h2 {
+    font-size: 40px;
+    color: white;
     padding: 0px 30px;
-    word-wrap: break-word;
-    max-width: 1000px;
 }
 
-.about-section img {
-    max-height: 500px;
+.about-section p {
+    padding: 0px 30px;
+    word-wrap: break-word;
+    max-width: 1500px;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.about-section .handwriting.signature {
+    font-size: 30px;
+    padding: 0px 30px;
 }
 
 .about-section header {
@@ -270,25 +295,28 @@ p {
 }
 
 .about-page a:hover {
-    color: #444;
+    color: #999;
 }
 
-.about-page .mobile-nav a:hover {
-    color:#ff6890;
+.about-page img:hover {
+    opacity: 70%;
 }
 
 /* Contact page styling */
 .contact-page {
-    background-color: #b84262;
+    background-color: #6A95BD;
 }
 
 .contact-page .desktop-nav a:hover, .contact-page footer a:hover {
-    color: white;
-    text-decoration: underline;
+    color: #444;
 }
 
 .contact-page h1 a:hover {
-    color: white;
+    color: #444;
+}
+
+.contact-page img:hover {
+    opacity: 70%;
 }
 
 .contact-section {
@@ -300,6 +328,7 @@ p {
     text-align: center;
     font-size: 20px;
     padding: 5px;
+    color: white;
 }
 
 .contact-section a {
@@ -308,8 +337,7 @@ p {
 }
 
 .contact-section a:hover {
-    color: white;
-    text-decoration: underline;
+    color: #444;
 }
 
 .contact-section img {
@@ -369,14 +397,6 @@ p {
 
 .portfolio-section a:hover {
     color: #999;
-}
-
-.portfolio-page .mobile-nav a:hover {
-    color: #999;
-}
-
-.portfolio-page .mobile-nav img:hover {
-    opacity: 70%;
 }
 
 .designing-website-section {
