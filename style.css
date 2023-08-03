@@ -251,7 +251,8 @@ p {
     opacity: 70%;
 } 
 
-/* About page */
+/* Pages */
+/* About Page */
 .about-page {
     background-image: url("resources/images/home-main-background-collage-dark.png");
     background-repeat: no-repeat;
@@ -384,6 +385,7 @@ p {
     padding: 50px 0px;
     height: fit-content;
 }
+
 .portfolio-section p {
     text-align: center;
     padding: 10px 30px;
@@ -415,7 +417,9 @@ p {
     max-width: 80vw;
 }
 
-/* Handwriting styling */
+/* Grandell Page */
+
+/* Handwriting Styling */
 .handwriting {
     font-family: "Midnight Signature";
     font-size: 30px;
