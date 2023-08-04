@@ -381,23 +381,22 @@ p {
     font-family: "Montserrat", sans-serif;
 }
 
-.portfolio-section {
+.portfolio-styling {
     padding: 50px 0px;
     height: fit-content;
 }
 
-.portfolio-section p {
+.portfolio-styling p {
     text-align: center;
-    padding: 10px 30px;
     color: #444;
 }
 
-.portfolio-section a {
+.portfolio-styling a {
     color: #6A95BD;
     text-decoration: none;
 }
 
-.portfolio-section a:hover {
+.portfolio-styling a:hover {
     color: #999;
 }
 
@@ -415,6 +414,37 @@ p {
     height: 400px;
     width: 500px;
     max-width: 80vw;
+}
+
+/* Flex-Box! */ 
+/* the container */
+.portfolio-projects {
+    display: flex;          /* flex-box! */
+    flex-direction: row;    /* the default. left to right */
+}
+
+/* the containees*/
+.project {
+    flex-wrap: wrap;    /* wrap content incase user resizes the browser */
+    flex-grow: 1;       /* space projects evenly */
+    flex-basis: 33.3%;  /* display 3 items in a row */
+    line-height: 10px;  /* for the text to be closer together */
+}
+/* end Flex-Box */
+
+.project img {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.project img:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.project-image {
+    display: flex;
+    justify-content: center;
 }
 
 /* Grandell Page */
