@@ -113,10 +113,16 @@ h2 {
     font-weight: 100;
 }
 
-h3 {
+h3, h4, h5 {
     font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4, h5 {
     font-size: 20px;
-    text-align: center;
 }
 
 a {
@@ -379,6 +385,8 @@ p {
 
 .portfolio-page h2 {
     font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
 }
 
 .portfolio-styling {
@@ -408,6 +416,7 @@ p {
 
 .figma-wireframe {
     padding: 10px;
+    text-align: center;
 }
 
 .figma-embed {
@@ -421,14 +430,15 @@ p {
 .portfolio-projects {
     display: flex;          /* flex-box! */
     flex-direction: row;    /* the default. left to right */
+    flex-wrap: wrap;        /* wrap content incase user resizes the browser. needs to go in the container to wrap the containees */
 }
 
 /* the containees*/
 .project {
-    flex-wrap: wrap;    /* wrap content incase user resizes the browser */
     flex-grow: 1;       /* space projects evenly */
     flex-basis: 33.3%;  /* display 3 items in a row */
     line-height: 10px;  /* for the text to be closer together */
+    padding: 20px 0px;  /* added 20px padding to top and bottom, mostly for mobile view */
 }
 /* end Flex-Box */
 
@@ -448,6 +458,34 @@ p {
 }
 
 /* Grandell Page */
+.portfolio-project-page h2, h3, h4, h5 {
+    color: #444;
+    text-align: left;
+}
+
+.portfolio-project-page h4, h5 {
+    font-style: italic;
+}
+
+/* Flexbox for all portfolio project pages and sections */
+/* container */
+.portfolio-project-page {
+    display: flex;          /* flex-box! */
+    flex-direction: row;    /* the default. left to right */
+    flex-wrap: wrap;        /* wrap content incase user resizes the browser. needs to go in the container to wrap the containees */
+}
+
+/* containees */
+.portfolio-project-page-section {
+    flex-grow: 1;       /* space projects evenly */
+    flex-basis: 50%;    /* display 2 items in a row */
+    padding: 50px;
+}
+
+.portfolio-project-page img {
+    max-height: 80vh;
+    max-width: 80vw;
+}
 
 /* Handwriting Styling */
 .handwriting {
