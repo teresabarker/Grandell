@@ -113,10 +113,16 @@ h2 {
     font-weight: 100;
 }
 
-h3 {
+h3, h4, h5 {
     font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4, h5 {
     font-size: 20px;
-    text-align: center;
 }
 
 a {
@@ -251,7 +257,8 @@ p {
     opacity: 70%;
 } 
 
-/* About page */
+/* Pages */
+/* About Page */
 .about-page {
     background-image: url("resources/images/home-main-background-collage-dark.png");
     background-repeat: no-repeat;
@@ -378,24 +385,26 @@ p {
 
 .portfolio-page h2 {
     font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
 }
 
-.portfolio-section {
+.portfolio-styling {
     padding: 50px 0px;
     height: fit-content;
 }
-.portfolio-section p {
+
+.portfolio-styling p {
     text-align: center;
-    padding: 10px 30px;
     color: #444;
 }
 
-.portfolio-section a {
+.portfolio-styling a {
     color: #6A95BD;
     text-decoration: none;
 }
 
-.portfolio-section a:hover {
+.portfolio-styling a:hover {
     color: #999;
 }
 
@@ -407,6 +416,7 @@ p {
 
 .figma-wireframe {
     padding: 10px;
+    text-align: center;
 }
 
 .figma-embed {
@@ -415,7 +425,69 @@ p {
     max-width: 80vw;
 }
 
-/* Handwriting styling */
+/* Flex-Box! */ 
+/* the container */
+.portfolio-projects {
+    display: flex;          /* flex-box! */
+    flex-direction: row;    /* the default. left to right */
+    flex-wrap: wrap;        /* wrap content incase user resizes the browser. needs to go in the container to wrap the containees */
+}
+
+/* the containees*/
+.project {
+    flex-grow: 1;       /* space projects evenly */
+    flex-basis: 33.3%;  /* display 3 items in a row */
+    line-height: 10px;  /* for the text to be closer together */
+    padding: 20px 0px;  /* added 20px padding to top and bottom, mostly for mobile view */
+}
+/* end Flex-Box */
+
+.project img {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.project img:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.project-image {
+    display: flex;
+    justify-content: center;
+}
+
+/* Grandell Page */
+.portfolio-project-page h2, h3, h4, h5 {
+    color: #444;
+    text-align: left;
+}
+
+.portfolio-project-page h4, h5 {
+    font-style: italic;
+}
+
+/* Flexbox for all portfolio project pages and sections */
+/* container */
+.portfolio-project-page {
+    display: flex;          /* flex-box! */
+    flex-direction: row;    /* the default. left to right */
+    flex-wrap: wrap;        /* wrap content incase user resizes the browser. needs to go in the container to wrap the containees */
+}
+
+/* containees */
+.portfolio-project-page-section {
+    flex-grow: 1;       /* space projects evenly */
+    flex-basis: 50%;    /* display 2 items in a row */
+    padding: 50px;
+}
+
+.portfolio-project-page img {
+    max-height: 80vh;
+    max-width: 80vw;
+}
+
+/* Handwriting Styling */
 .handwriting {
     font-family: "Midnight Signature";
     font-size: 30px;

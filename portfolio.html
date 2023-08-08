@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Teresa Barker</title>
-    <link href="../style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,200;1,300&display=swap" rel="stylesheet">
-    <link rel="icon" href="../resources/images/home-main-background-collage-icon.png">
+    <link rel="icon" href="resources/images/home-main-background-collage-icon.png">
 </head>
 <body class="portfolio-page">
     <header>
@@ -23,9 +23,9 @@
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="https://github.com/teresabarker" target="_blank">GitHub</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="https://github.com/teresabarker" target="_blank"><img src="../resources/images/github-logo-gray-300x199.png"/></a></li>
-                <li><a href="https://www.linkedin.com/in/teresa-barker/" target="_blank"><img src="../resources/images/linkedin-logo-gray-1024x1024.png"/></a></li>
-                <li><a href="https://open.spotify.com/user/1257739995?si=2418dc58c24840bc" target="_blank"><img src="../resources/images/Gray-Spotify-Icon-1024x1024.png"/></a></li>
+                <li><a href="https://github.com/teresabarker" target="_blank"><img src="resources/images/github-logo-gray-300x199.png"/></a></li>
+                <li><a href="https://www.linkedin.com/in/teresa-barker/" target="_blank"><img src="resources/images/linkedin-logo-gray-1024x1024.png"/></a></li>
+                <li><a href="https://open.spotify.com/user/1257739995?si=2418dc58c24840bc" target="_blank"><img src="resources/images/Gray-Spotify-Icon-1024x1024.png"/></a></li>
             </ul>
         </nav>
         <!-- Mobile Navigation -->
@@ -42,34 +42,49 @@
                 <li><a href="https://github.com/teresabarker" target="_blank">GitHub</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <div class="mobile-nav-social-icons">
-                    <li><a href="https://github.com/teresabarker" target="_blank"><img src="../resources/images/github-logo-white-300x199.png"/></a></li>
-                    <li><a href="https://www.linkedin.com/in/teresa-barker/" target="_blank"><img src="../resources/images/linkedin-logo-white-1024x1024.png"/></a></li>
-                    <li><a href="https://open.spotify.com/user/1257739995?si=2418dc58c24840bc" target="_blank"><img src="../resources/images/White-Spotify-Icon-1024x1024.png"/></a></li>
+                    <li><a href="https://github.com/teresabarker" target="_blank"><img src="resources/images/github-logo-white-300x199.png"/></a></li>
+                    <li><a href="https://www.linkedin.com/in/teresa-barker/" target="_blank"><img src="resources/images/linkedin-logo-white-1024x1024.png"/></a></li>
+                    <li><a href="https://open.spotify.com/user/1257739995?si=2418dc58c24840bc" target="_blank"><img src="resources/images/White-Spotify-Icon-1024x1024.png"/></a></li>
                 </div>
             </ul>
         </nav>
     </header>
-    <div class="portfolio-section">
+    <div class="portfolio-styling" >
         <h1>My Portfolio</h1>
-        <h2>Grandell</h2>
-        <p>Grandell is the website that you are on right now.</p>
-        <p><a href="https://github.com/teresabarker/Grandell">GitHub Repository</a> and Wireframes</p>
-        <div class="designing-website-section">
-            <div class="figma-wireframe">
-                <iframe class="figma-embed" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FAICZpNzb1AAyNi3s7dRXD4%2FGrandell-Wireframes%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
-                <p>DESKTOP</p>
+        <!-- using a flex-box to hold the squares to my projects -->
+        <div class="portfolio-projects">
+            <div class="project">
+                <!-- need to wrap image in its own container to center align -->
+                <div class="project-image">
+                    <a href="grandell.html" target="_blank" ><img src="resources/images/home-main-background-collage-icon.png"/></a>
+                </div>
+                <!-- good practice/semantics is putting <a> inside of <h2> -->
+                <h2><a href="grandell.html" target="_blank">Grandell</a></h2>
+                <p>Website</p>
+                <p>JavaScript, HTML, CSS</p>
             </div>
-            <div class="figma-wireframe">
-                <iframe class="figma-embed" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FAICZpNzb1AAyNi3s7dRXD4%2FGrandell-Wireframes%3Fnode-id%3D111%253A3" allowfullscreen></iframe>
-                <p>MOBILE</p>
+            <div class="project">
+                <div class="project-image">
+                    <img src="resources/images/animal-crossing-new-horizons-let-me-imagine-it-ok-square.png"/>
+                </div>
+                <h2>HoopLog</h2>
+                <p>iOS Mobile App</p>
+                <p>Swift, SwiftUI</p>
+            </div>
+            <div class="project">
+                <div class="project-image">
+                    <img src="resources/images/animal-crossing-new-horizons-let-me-imagine-it-ok-square.png"/>
+                </div>
+                <h2>KaMusic!</h2>
+                <p>Web App</p>
+                <p>JavaScript, HTML, CSS</p>
             </div>
         </div>
-        <p class="handwriting">more to the portfolio coming soon</p>
     </div>
     </div>
     <footer>
         <p><a href="https://github.com/teresabarker/Grandell" target="_blank">© Teresa Barker | website created by yours truly</a></p>
     </footer>
-    <script src="../main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
