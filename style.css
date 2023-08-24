@@ -62,9 +62,10 @@ nav {
 
 nav li {
     text-transform: uppercase;
+    font-weight: bold;
     display: inline;
     padding-inline: 10px;
-    font-size: 16px
+    font-size: 16px;
 }
 
 nav a {
@@ -364,11 +365,11 @@ p {
 }
 
 .portfolio-page h1 a, .portfolio-page nav.desktop-nav a, .portfolio-page footer p a {
-    color: #444;
+    color: #222;
 }
 
 .portfolio-page h1 a:hover, .portfolio-page nav.desktop-nav a:hover, .portfolio-page p a:hover {
-    color: #999;
+    color: #888;
 }
 
 .portfolio-page nav.desktop-nav img:hover {
@@ -457,6 +458,7 @@ p {
     justify-content: center;
 }
 
+/* Portfolio Project Pages */
 /* Grandell Page */
 .portfolio-project-page h2, h3, h4, h5 {
     color: #444;
@@ -465,6 +467,18 @@ p {
 
 .portfolio-project-page h4, h5 {
     font-style: italic;
+}
+
+.portfolio-project-page a {
+    color: #5A8DBC;
+    text-decoration: none;
+}
+.portfolio-project-page a:hover {
+    color: #ff6890;
+}
+
+.portfolio-project-page-section p a:hover {
+    color: #ff6890;
 }
 
 /* Flexbox for all portfolio project pages and sections */
@@ -483,7 +497,7 @@ p {
 }
 
 .portfolio-project-page img {
-    max-height: 80vh;
+    max-height: 90vh;
     max-width: 80vw;
 }
 
