@@ -10,3 +10,83 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,200;1,300&display=swap" rel="stylesheet">           <!-- reference to Montserrat Google font -->
     <link rel="icon" href="resources/images/home-main-background-collage-icon.png">                                                             <!-- the image in the browser tab -->
 </head>
+<body class="portfolio-page">
+    <header>
+        <!-- Title -->
+        <h1><a href="https://teresabarker.com">Teresa Barker</a></h1>
+        <!-- Navigation -->
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="https://teresabarker.com/">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="https://github.com/teresabarker" target="_blank">GitHub</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="https://github.com/teresabarker" target="_blank"><img src="resources/images/github-logo-gray-300x199.png"/></a></li>
+                <li><a href="https://www.linkedin.com/in/teresa-barker/" target="_blank"><img src="resources/images/linkedin-logo-gray-1024x1024.png"/></a></li>
+                <li><a href="https://open.spotify.com/user/1257739995?si=2418dc58c24840bc" target="_blank"><img src="resources/images/Gray-Spotify-Icon-1024x1024.png"/></a></li>
+            </ul>
+        </nav>
+        <!-- Mobile Navigation -->
+        <div class="hamburger-icon">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="https://teresabarker.com/">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="https://github.com/teresabarker" target="_blank">GitHub</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <div class="mobile-nav-social-icons">
+                    <li><a href="https://github.com/teresabarker" target="_blank"><img src="resources/images/github-logo-white-300x199.png"/></a></li>
+                    <li><a href="https://www.linkedin.com/in/teresa-barker/" target="_blank"><img src="resources/images/linkedin-logo-white-1024x1024.png"/></a></li>
+                    <li><a href="https://open.spotify.com/user/1257739995?si=2418dc58c24840bc" target="_blank"><img src="resources/images/White-Spotify-Icon-1024x1024.png"/></a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <!-- container -->
+    <div class="portfolio-project-page hooplog">
+        <div class="portfolio-project-page-section">
+            <!-- need to wrap image in its own container to center align -->
+            <div class="project-image">
+                <img src="resources/images/HoopLog_logo.jpg"/>
+            </div>
+        </div>
+        <!-- sections are containees -->
+        <div class="portfolio-project-page-section">
+            <h2>HoopLog</h2>
+            <h3>iOS Mobile App built using Swift and SwiftUI</h4>
+            <h4>Design and Development by Teresa Barker</h5>
+            <h5>Behind the Name</h4>
+            <p>HoopLog originated from a college project. The idea comes from my friend, Alex Hirsh, from when we had a class together in college and had to come up with an app idea. All the credit for the idea goes to him, I simply wanted to see if I could actually make it come to life.</p>
+            <p>The name itself is pretty self explanatory - it’s an app to track (log) basketball (hoop) data. Hence, HoopLog. A log of hooping.</p>
+            <h5>Technical Details</h5>
+            <p>The HoopLog is to track shot data automatically from a device attached to the board and communicate that data to an application on the user’s mobile device. Specifically, it’s an Arduino microcontroller and some sensors collecting the data, and an iOS mobile app built using Swift.</p>
+            <p>More details to come later, as this is a project I am actively working on. The most current code is living in a repo on GitHub, which is where I’m also managing the whole effort with a Roadmap, tasks, etc. to keep everything on track and organized.</p>
+            <p></p>
+        </div>
+        <div class="portfolio-project-page-section">
+            <h2>Wireframes</h3>
+            <h3>Designing the Mobile App</h3>
+            <p>I used <a href="https://www.figma.com/" target="_blank">Figma</a> to create the wireframes for HoopLog. The wireframes you’re looking at here on this page are living and breathing as I alternate between design and development..</p>
+            <p>You can see the (living and breathing) <a href="https://www.figma.com/file/2jJfWkuaBvOPCgtgWqcBlP/HoopLog?type=design&node-id=0%3A1&mode=design&t=HKRSozyfbf5oDpqe-1" target="_blank">wireframes</a> embedded here on this page. It’s been at the forefront of my mind since the beginning to design a site that both felt like it reflected who I am and was clean and easy to navigate.</p>
+            <p>This is the first mobile app I’m making (woo!) and so I decided to start by designing the app first for iOS since I’m an Apple ecosystem loyalist. Eventually I’d like this app to be available for green text message devices, too, and even have a corresponding Apple Watch app - but I wanted to start small and get it done before embarking on other devices.</p>
+            <p>I have a little bit of a background in Android app development from a college project, which was primarily a Java application, but it was quite simple and many years ago. All that to say, that I can’t imagine I’ll want the app to look different on different hardware, so these wireframes should still stand true for when I get to Android app development.</p>
+            <p>Also, since this is a mobile application, the wireframes are only for a mobile device. I just picked the iPhone 14 for template sizing, but of course the idea is that it’ll adjust to various Apple phone screen sizes, not have parts of the application cut off or smooshed, etc. </p>
+            <p>Creating the wireframes was a lot of fun for me, because I got to document what I had imagined in my head for colors, layout, etc. - and it also prompted me to notice a lot more details on the apps I use everyday. Noticing design choices, small yet significant details, “oh I really like that,” “oh that would look way better if it were xyz,” and tying all of that together in this apalication. </p>
+        </div>
+        <div class="portfolio-project-page-section">
+            <div class="figma-wireframe">
+                <iframe class="hooplog-figma-embed" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F2jJfWkuaBvOPCgtgWqcBlP%2FHoopLog%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DHKRSozyfbf5oDpqe-1" allowfullscreen></iframe>
+                <p>WIREFRAMES</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p><a href="https://github.com/teresabarker/Grandell" target="_blank">© Teresa Barker | website created by yours truly</a></p>
+    </footer>
+    <script src="main.js"></script>

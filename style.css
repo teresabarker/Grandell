@@ -405,14 +405,6 @@ p {
     text-decoration: none;
 }
 
-.portfolio-styling .grandell a:hover {
-    color: #6A95BD;
-}
-
-.portfolio-styling .hooplog a:hover {
-    color: #AA2222;
-}
-
 .designing-website-section {
     display: flex;
     flex-wrap: wrap;
@@ -426,6 +418,12 @@ p {
 
 .figma-embed {
     height: 400px;
+    width: 500px;
+    max-width: 80vw;
+}
+
+.hooplog-figma-embed {
+    height: 800px;
     width: 500px;
     max-width: 80vw;
 }
@@ -447,6 +445,14 @@ p {
 }
 /* end Flex-Box */
 
+.project a {
+    color: #444;
+}
+
+.project a:hover {
+    color: #999;
+}
+
 .project img {
     max-height: 300px;
     max-width: 300px;
@@ -463,7 +469,6 @@ p {
 }
 
 /* Portfolio Project Pages */
-/* Grandell Page */
 .portfolio-project-page h2, h3, h4, h5 {
     color: #444;
     text-align: left;
@@ -471,18 +476,6 @@ p {
 
 .portfolio-project-page h4, h5 {
     font-style: italic;
-}
-
-.portfolio-project-page a {
-    color: #5A8DBC;
-    text-decoration: none;
-}
-.portfolio-project-page a:hover {
-    color: #ff6890;
-}
-
-.portfolio-project-page-section p a:hover {
-    color: #ff6890;
 }
 
 /* Flexbox for all portfolio project pages and sections */
@@ -503,6 +496,24 @@ p {
 .portfolio-project-page img {
     max-height: 90vh;
     max-width: 80vw;
+}
+
+/* Grandell Project Styling */
+.grandell a {
+    color: #5A8DBC;
+    text-decoration: none;
+}
+.grandell a:hover {
+    color: #999;
+}
+
+/* HoopLog Project Styling */
+.hooplog a {
+    color: #AA2222;
+    text-decoration: none;
+}
+.hooplog a:hover {
+    color: #999;
 }
 
 /* Handwriting Styling */
