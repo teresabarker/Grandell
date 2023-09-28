@@ -401,12 +401,16 @@ p {
 }
 
 .portfolio-styling a {
-    color: #6A95BD;
+    color: #444;
     text-decoration: none;
 }
 
-.portfolio-styling a:hover {
-    color: #999;
+.portfolio-styling .grandell a:hover {
+    color: #6A95BD;
+}
+
+.portfolio-styling .hooplog a:hover {
+    color: #AA2222;
 }
 
 .designing-website-section {
